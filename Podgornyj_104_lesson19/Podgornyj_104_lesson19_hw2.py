@@ -7,7 +7,7 @@
 
 import logging
 
-logging.basicConfig(filename="logging_lesson19.log",
+logging.basicConfig(filename="logging_les19.log",
                     level=logging.DEBUG,
                     format="%(asctime)s %(levelname)s %(funcName)s || %(message)s")
 
