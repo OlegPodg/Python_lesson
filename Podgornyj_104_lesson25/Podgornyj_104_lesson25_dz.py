@@ -20,13 +20,13 @@ cursor.execute("""
     CREATE TABLE IF NOT EXISTS 
         table_str(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            col_1)""")
+            col_1 TEXT)""")
 # Create a table in the database for numbers
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS 
         table_int(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            col_1)""")
+            col_1 INTEGER)""")
 # Create a list of words and numbers
 list_ = ["one", "two", 3, 4, "five", 6, 7, "eight", "nine", 10, 11, "twelve"]
 # Iterating over the elements of a list
